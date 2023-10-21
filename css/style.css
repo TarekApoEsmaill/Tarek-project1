@@ -1,0 +1,180 @@
+
+.a ul li a b:hover{
+  color: rgb(218, 57, 57);
+  transition: 0.3s all;
+}
+.logo img{
+  margin: 2.5rem 0rem 0rem 0rem;
+  padding: 25px;
+  max-width: 80%;
+  transition: 0.6s;
+  opacity: 1;
+  filter: grayscale(100);
+}
+.logo img:hover{
+  filter: grayscale(0) ;
+}
+.dropbtn {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  padding-top: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffffb6;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 2px rgb(0, 0, 0);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 5px 15px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  color: rgb(218, 57, 57);
+  transition: 0.3s all;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown .dropbtn:hover{
+ color: rgb(218, 57, 57);
+ transition: 0.3s all;
+}
+.b .but{
+  background-color: #fadfdf ;
+  color:#e84545;
+  border: none;
+  border-radius: 5px;
+  padding: 7px; 
+}
+.b .bla5 i{
+  width: 26%;
+  height: 10vh;
+  font-size:2rem;
+  background-color: #fcf3f3 ;
+  border-radius: 4rem;
+  margin-top: 3rem;
+  transition: 1s
+}
+.b .card{
+border-radius: 1rem;
+padding: 1rem;
+}
+.b h1,h3{
+  color: #32353a;
+}
+.b .card:hover i{
+  background: #e84545;
+  color: white !important;
+  transition: 0.9s
+}
+.c{
+  background-image: url(../img/stats-bg.jpg);
+  height: 65vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.father5 h4{
+  font-weight: 700;
+  color:  rgb(65, 64, 64);
+  transition: 0.6s;
+}
+.father5 .bla8:hover h4{
+  color: #e44242;
+  transition: 0.6s;
+}
+.father5 h2{
+  border-top: 2px solid #d10303;
+  width: 40px;
+}
+.img1{
+  width: 70%;
+  margin-top: 7rem;
+  padding-left: 0%;
+  padding-right: 0%;
+  border: white solid 5px;
+  border-radius: 10px;
+}
+.img2{
+  margin: 1rem 0rem 0rem 8rem;
+  width: 40%;
+  position: absolute;
+  z-index: -99;
+  padding-left: 0%;
+  padding-right: 0%;
+  border: white solid 5px;
+  border-radius: 10px;
+}
+.bla13{
+  border: 3px solid  #f82003;
+  border-radius: 1rem;
+}
+.e{
+  margin-top: 6rem;
+}
+.e h2{
+  border-top: 2px solid #d10303;
+  width: 40px;
+}
+.f{
+  display: flex;
+}
+.f button{  
+  padding: 2px 15px 2px 15px;
+  border: none;
+  background-color: white;
+  font-weight: 500;
+  border-radius: 30px;
+}
+.f button:hover{
+  background-color: #dd2c2c;
+  border-radius: 30px;
+  color: white;
+}
+.g{
+  background-image: url(../img/cta-bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 60vh;
+}
+.h h5 :hover{
+    color: rgb(218, 57, 57);
+  transition: 0.3s all;
+}
+.father15 i{
+  color:  #444444;
+  margin-right: 3px;
+  border: 2px solid #444444;
+  font-size: 1rem;
+  border-radius: 2rem;
+  }
+  .father15 i:hover{
+      border: 2px solid #d10303;
+      color: #d10303;
+  }
+  .father15 ul li{
+      list-style: none;
+      margin-top: 5px;   
+  }
+h2{
+  margin: 0px 0px !important;
+}
